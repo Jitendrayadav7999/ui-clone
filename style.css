@@ -59,7 +59,6 @@ body {
    display: flex;
    justify-content: space-around;
    align-items: center;
-   transition: box-shadow 300ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
 }
 .left-first-first{
    color: white;
@@ -78,8 +77,8 @@ body {
     background: rgb(33, 150, 243);
     border-radius: 8px;
     display: flex;
-    justify-content: space-around;
     align-items: center;
+    justify-content: space-around;
 }
 
 .left-second-second span{
