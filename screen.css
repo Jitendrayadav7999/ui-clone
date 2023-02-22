@@ -1,0 +1,156 @@
+
+@media screen and (max-width: 900px) {
+    .sidebar {
+        width: 10%;
+    }
+
+    .main-section {
+        width: 88%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left-first-div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 230px;
+        width: 100%;
+    }
+
+    .main-left {
+        width: 96%;
+    }
+
+    .left-first {
+        width: 100%;
+        height: 100px;
+    }
+
+    .left-second {
+        width: 100%;
+        height: 100px;
+    }
+
+    .main-right {
+        margin-top: 10px;
+        width: 96%;
+        margin-right: 4px;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 0 8px 0 8px;
+    }
+
+    .sidebar {
+        display: none;
+    }
+
+    .main-section {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .left-first-div {
+        height: 320px;
+    }
+
+    .left-first {
+        width: 100%;
+        height: 140px;
+    }
+
+    .left-second {
+        height: 140px;
+    }
+
+    .left-first-second span {
+        position: relative;
+        left: 15%;
+        top: -10%;
+        font-size: 90px;
+        color: white;
+        opacity: 0.5;
+    }
+
+    .left-second-second span {
+        position: relative;
+        left: 15%;
+        top: -10%;
+        font-size: 90px;
+        color: white;
+        opacity: 0.5;
+
+    }
+
+    .right-first {
+        display: flex;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+    }
+
+    .first-first {
+        display: flex;
+        height: 150px;
+        flex-direction: column;
+        width: 100%;
+
+    }
+    .first-first-first {
+        height: 75px;
+        width: 100%;
+        border-bottom: 1px solid lightgrey;
+        border-right: none;
+    }
+    .right-first-div{
+    top: 20%;
+    left: 5%;
+       
+    }
+    .first-first-first-second{
+    position: none;
+        
+    }
+
+    .first-first-second {
+        border-bottom: 1px solid lightgrey;
+        height: 75px;
+        width: 100%;
+    }
+  
+  
+    .same-style{
+        top: 25%;
+        left: 70%;
+    }
+
+
+    .first-second {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 150px;
+        position: none;
+    }
+
+    
+
+    .first-second-first-div {
+        border-bottom:1px solid lightgrey ;
+        border-right:none;
+        height: 75px;
+        width: 100%;
+    }
+    
+
+    .first-second-second-div {
+        height: 75px;
+        width: 100%;
+    }
+}
